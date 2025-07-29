@@ -2,7 +2,27 @@
 
 **Descripción del formato**
 
+ El formato GFF3 (General Feature Format versión 3) es un estandar ampliamente utilizado para representar anotaciones genómicas en archivos de texto plano. Posee 9 columnas delimitadas por tabulación. Muy usado en genómica estructural. 
 
+ Aqui se muestra cada columna presente en el formato. 
+ 
+Columna 1: "seqid". Hace referencia al nombre de la secuencia
+
+Columna 2: "source". Origen del feature
+
+Columna 3: "type". Tipo de feature
+
+Columna 4: "start". Posición de inicio del feature
+
+Columna 5 "end". Posicion final del feature
+
+Columna 6 "score". Score del feature
+
+Columna 7 "strand". Hebra del feature
+
+Columna 8 "phase". Fase del feauture
+
+Columna 9 "attributes". Atributos del feature
 
 **Descripción del Organismo**
 
