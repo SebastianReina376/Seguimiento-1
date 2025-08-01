@@ -1,0 +1,28 @@
+#Seguimiento 1
+
+#Descarga del archivo
+wget ftp://ftp.ensembl.org/pub/current_gff3/sphenodon_punctatus/Sphenodon_punctatus.ASM311381v1.114.gff3.gz
+
+#Descompresión del archivo
+ls Sphenodon_punctatus.ASM311381v1.114.gff3.gz
+
+#Conocer las primeras líneas del archivo
+head Sphenodon_punctatus.ASM311381v1.114.gff3
+
+#Contar cuantas líneas tiene el archivo
+$ wc -l Sphenodon_punctatus.ASM311381v1.114.gff3
+
+# Contar las líneas que no sean comentarios
+grep -v "^#" Sphenodon_punctatus.ASM311381v1.114.gff3 | wc -l
+
+# Buscar enumerar y enlistar los features del archivo
+grep -v "^#" Sphenodon_punctatus.ASM311381v1.114.gff3 | cut -f3 | sort | uniq -c | sort -nr
+
+# Buscar cuantas regiones de la secuencia contiene el archivo
+cat Sphenodon_punctatus.ASM311381v1.114.gff3 | grep "##sequence-region" | wc -l
+
+# Cuantos genes están enlistados en el organismo
+cat Sphenodon_punctatus.ASM311381v1.114.gff3 | grep "##sequence-gene" | wc -l
+
+# Buscar el top 10 de tipo de features más anotados en el genoma
+grep -v "^#" Sphenodon_punctatus.ASM311381v1.114.gff3 | cut -f3 | sort | uniq -c | sort -nr | head
