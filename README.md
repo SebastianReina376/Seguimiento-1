@@ -28,6 +28,44 @@ Columna 9 "attributes". Atributos del feature
 
 La tuátara común (Sphenodon punctatus) es una especie de saurópsido esfenodontos de la familia Sphenodontidae. Es comúnmente confundido con los largatos sin embargo pertenecen a otro orden. Aqui se muestran algunas de sus caracteristicas como: sus dientes fusionados con su mandibula, promedio de longitud de 50 cm de largo y pesando entre 0.5 a 1 kg. Es capaz de sobrevivir a temperaturas más bajas que otros reptiles. Otra caracteristica es que son animales longevos, llegando a vivir más de un siglo sin embargo, se reproducen lentamente alcanzando la madurez sexual a los 10 años de vida. 
 
+**Respuesta a preguntas**
+
+Es indispensable aclarar antes de leer el archivo, que se usara el punto (.) como separador de miles.
+
+1. ¿Cuantos features contiene el archivo?
+
+   El archivo de Sphenodon Punctatus contiene 20 features sin contar cuantas veces aparece el feature. Contando las repiticiones contiene     un total de 761.973.
+   
+2. ¿Cuantas regiones de la secuencia (cromosomas) contiene el archivo?
+
+   El archivo contiene 16.536 regiones.
+   
+3. ¿Cuántos genes están listados en el organismo?
+
+   Al realizar el analisis se encontraron varios features con presencia de la palabra gene. Se realizó una busqueda y se encontró que la      mayoria de lo otros que menciona el archivo son secuencias que no se traduciran, y aunque el gene tambien posee secuencias que no se       traduciran es la forma mas cercana de saber que de esos habra produccion de proteinas. Por lo tanto los mencionados como respuesta         seran solo los que aparezcan como gene dando un total de 17.648
+   
+4. ¿Cuál es el top 10 de tipo de features (columna 3 más anotados en el genoma?
+
+   1. 252.872 exon
+      
+   2. 239.450 CDS
+      
+   3. 187.067 biological_region
+      
+   4.  25.240 mRNA
+      
+   5.  17.648 gene
+      
+   6.  16.536 region
+       
+   7.  11.573 five_prime_UTR
+       
+   8.   8.195 three_prime_UTR
+       
+   9.     910 ncRNA_gene
+   
+   10.    776 pseudogenic_transcript
+
 **Referencias**
 
 Tuátara (Sphenodon punctatus). (n.d.). NaturaLista Colombia. https://colombia.inaturalist.org/taxa/200834-Sphenodon-punctatus
